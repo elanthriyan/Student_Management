@@ -1,5 +1,10 @@
 # Face Recognition Attendance System using FaceNet and MTCNN
 
+![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)
+![OpenCV](https://img.shields.io/badge/OpenCV-%3E%3D4.0-green.svg)
+![facenet-pytorch](https://img.shields.io/badge/facenet--pytorch-%E2%9C%94%EF%B8%8F-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+
 This project implements a real-time face recognition-based attendance system using the `facenet-pytorch` library with pre-trained FaceNet and MTCNN models. The system includes:
 
 - **Dataset Creation** from webcam
@@ -55,7 +60,7 @@ You'll be prompted to choose the video input method:
 
 1. Webcam - for live face detection and recognition.
 2. Recorded Video - for face recognition on a video file.
-Detected faces will be matched with your dataset, and the system will display:
+- Detected faces will be matched with your dataset, and the system will display:
 - Green box with name and confidence if the face is recognized.
 - Red box with "Unknown" if the face is not in the database.
 ## ✅ Attendance Recording
@@ -81,3 +86,6 @@ You can experiment with values between 0.6 to 0.9 depending on lighting, resolut
 ```bash
 device = 'cuda'
 ```
+
+## Demo
+![Demo](demo.gif)
