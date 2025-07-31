@@ -86,6 +86,8 @@ You can experiment with values between 0.6 to 0.9 depending on lighting, resolut
 ```bash
 device = 'cuda'
 ```
+## Maximum Distance Detected
+**3.8 meters (max)**
 
 ## Demo
 ![Demo](demo.gif)
